@@ -51,6 +51,7 @@ Content-Type: application/json
 ###
 POST http://localhost:3001/eventos/{{ eventoId }}/reservar
 Content-Type: application/json
+X-Api-Token: 456
 
 {
     "lugares": ["{{ nomeLugar }}"],
